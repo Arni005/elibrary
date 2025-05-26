@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Elibrary</h1>
+  
+<ul>
+  {% for book in mybooks %}
+  <p>{{ book.title }} by {{ book.author }}</p>
+  {% empty %}
+      <p>No books found.</p>
+  {% endfor %}
+</ul>
+
+</body>
+</html>

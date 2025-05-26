@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Status</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bookinfo.css'%}">
+</head>
+<body>
+    <div class="container">
+        <h1> Book Status</h1>
+        <form id="searchForm">
+            <input type="text" id="studentId" placeholder="Enter Student ID" required>
+            <button type="submit">Search Issued Books</button>
+        </form>
+        <table id="statusTable">
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Date Issued</th>
+                    <th>Return Date</th>
+                    <th>Pending Days</th>
+                </tr>
+            </thead>
+            <tbody id="statusBody">
+                <!-- Issued books will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="{% static 'js/bookinfo.js'%}"></script>
+</body>
+</html>

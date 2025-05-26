@@ -1,0 +1,182 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  background-color: #1A1B4B;
+  color: #02021a;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header styles */
+header {
+  background-color: #cb812d;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Main content styles */
+main {
+  padding: 6rem 0;
+}
+
+.library-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Left section - Book showcase */
+.book-showcase {
+  flex: 1;
+  min-width: 300px;
+}
+
+.featured-image {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40%;
+}
+
+.featured-book {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #ede9fe;
+  border-radius: 0.5rem;
+
+}
+
+.featured-book h3 {
+  color: #4338ca;
+  margin-bottom: 0.5rem;
+}
+
+.featured-book p {
+  color: #352ba5;
+  margin-bottom: 0.5rem;
+}
+
+
+.featured-book .subtitle {
+  color: #6366f1;
+  font-size: 0.875rem;
+}
+
+/* Right section - Book list */
+.book-list {
+  flex: 2;
+  min-width: 300px;
+  margin-top: 20%;
+}
+
+.book-list h2 {
+  margin-bottom: 1rem;
+  color: #e5e7eb;
+}
+
+.books-table {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.badge-available {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badge-issued {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+/* Issue Button Styles */
+.issue-btn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.issue-btn:hover {
+  background-color: #4338ca;
+}
+
+.issue-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.info-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #fef3c7;
+  border-radius: 0.5rem;
+}
+
+.info-box h4 {
+  color: #92400e;
+  margin-bottom: 0.5rem;
+}
+
+.info-box p {
+  color: #b45309;
+  font-size: 0.875rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .library-content {
+      flex-direction: column;
+  }
+  
+  .book-showcase, .book-list {
+      width: 100%;
+  }
+}

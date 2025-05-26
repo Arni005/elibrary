@@ -1,0 +1,173 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webpage UI</title>
+  {% load static %}
+   <link rel="stylesheet" href="{% static 'script.css' %}">
+</head>
+<body>
+  <div id="main"> 
+    <div id="header"> 
+ 
+ <div class="texts"> <p> Books  </p>  </div>
+ <div class="texts"> <p> Digital book</p> </div>
+ <div class="texts"> <p> Status  </p> </div>
+ <div class="texts"> <p> Notification </p> </div>
+ <div class="texts"> <p> Support     </p> </div>
+ <div class="texts"> <p> More</p><p> <i class="ri-arrow-down-s-line"></i> </p>  </div>
+
+<div id="contactDetails">
+<p><u> Contact us </u> </p>
+<p> 90835721836 </p> </div>
+<div class="icon"> 
+<i class="ri-search-line"></i> </div>
+<div class="icon">
+<i class="ri-global-line"></i> </div>
+
+<div id="Login">
+<i class="ri-user-3-fill"></i> <p onclick="window.location.href='/login/'"> Login </p> </div>  
+
+<div class="try">  <p> About us </p></div>
+</div> 
+
+
+    <div id="fakeheader"> </div> 
+<div id="page1">
+       <div id="strip"><p>"This website offers real-time tracking of book availability, issuance details, due dates, and fines for efficient library management."</p> </div>
+       
+       <div id="content"> 
+        <div id="box1"> 
+<h1> E-Library
+ </h1> 
+<p> Our system provides real-time tracking of book availability, issuance, due dates, and fines,
+ making it easy for users to manage borrowed books and stay organized—streamlining the experience for both students and administrators.
+</p>
+<div id="btns"> 
+<div id="btns1" onclick="window.location.href='/login/'"> Login</a></div>
+     
+<div id="btns2"> books available</div>
+</div> </div>
+        <div id="box2"> 
+       <img src="https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2023/02/30120325/Top-5-Benefits-of-Library-Management-System-for-Education.png" alt="lib_management">
+        </div>
+       </div>
+       <div id="heading"><h1> Effortless Library Solutions: Track, Manage, Succeed.. </h1>
+    
+    </div>
+</div>
+<div id="page2">
+</div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern E-Library</title>
+             {% load static %}
+    <link rel="stylesheet" href="{% static 'css/script.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="main">
+        <header id="header">
+            <div class="nav-toggle" id="navToggle">
+                <i class="ri-menu-line"></i>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <div class="nav-item">
+                    <a href="#" class="nav-link">Books</a>
+                    <div class="dropdown-content">
+                        <a href="#">Fiction</a>
+                        <a href="#">Non-Fiction</a>
+                        <a href="#">Academic</a>
+                    </div>
+                </div>
+               
+            </nav>
+
+            <div class="header-right">
+                <div class="nav-item">
+                    <a href="#" class="nav-link">Digital Books</a>
+                    <div class="dropdown-content">
+                        <a href="#">E-books</a>
+                        <a href="#">Audiobooks</a>
+                        <a href="#">Magazines</a>
+                    </div>
+                  </div>
+                  <div class="nav-item">
+                      <a onclick="window.location.href='/bookinfo/'" class="nav-link" >Status</a>
+                  </div>
+                  <div class="nav-item">
+                      <a onclick="window.location.href='/about_us/' " class="nav-link">About us</a>
+                  </div>
+                  <div class="nav-item">
+                      <a  onclick="window.location.href='/support/' "class="nav-link">Support</a>
+                  </div>
+                  <div class="nav-item">
+                      <a href="#" class="nav-link">More <i class="ri-arrow-down-s-line"></i></a>
+                      <div class="dropdown-content">
+                          <a href="#">Services</a>
+                          <a href="#">Resources</a>
+                          <a href="#">Help Center</a>
+                      </div>
+                  </div>
+                  <div class="contact-info">
+                      <p class="contact-text">Contact us</p>
+                      <p class="phone-number">90835721836</p>
+                  </div>
+                  <button class="icon-btn search-btn">
+                      <i class="ri-search-line"></i>
+                  </button>
+                  <button class="icon-btn globe-btn">
+                      <i class="ri-global-line"></i>
+                  </button>
+                  <button class="login-btn" id="loginBtn">
+                      <i class="ri-user-3-fill"></i>
+                      <span ></span>
+                      <aon click="window.location.href='/login/'"> login </a> 
+                  </button>
+                  <button class="about-btn" onclick="window.location.href='/about_us/' ">About us</button>
+                </div>
+              </header>
+      
+              <main>
+                  <div class="announcement-bar">
+                      <p class="announcement-text">
+                          This website offers real-time tracking of book availability, issuance details, due dates, and fines for efficient library management.
+                      </p>
+                  </div>
+                  
+                  <section class="hero">
+                      <div class="hero-content">
+                          <div class="hero-text">
+                              <h1 class="hero-title">E-Library</h1>
+                              <p class="hero-description">
+                                  Our system provides real-time tracking of book availability, issuance, due dates, and fines,
+                                  making it easy for users to manage borrowed books and stay organized—streamlining the experience 
+                                  for both students and administrators.
+                              </p>
+                              <div class="hero-buttons">
+                                  <button class="primary-btn" id="heroLoginBtn" onclick="window.location.href='/login/'">Login</button>
+                                  <button class="secondary-btn" id="booksBtn" onclick="window.location.href='/availbooks/'">Books Available</button>
+                              </div>
+                          </div>
+                          <div class="hero-image">
+                              <img src="https://miro.medium.com/v2/resize:fit:1400/1*yC9ksaPK-f98AXMNFN4DDA.jpeg" 
+                                   alt="Library Management">
+                          </div>
+                      </div>
+                  </section>
+      
+                  <section class="cta-section">
+                      <h2 class="cta-title">Effortless Library Solutions: Track, Manage, Succeed</h2>
+                  </section>
+              </main>
+            </div>
+            <script src="{% static 'js/script.js' %}"></script>
+        </body>
+        </html> 

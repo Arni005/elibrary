@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/style5.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 E-L I B R A R Y </h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="library-content">
+            <!-- Left Section - Book Image and Details -->
+            <div class="book-showcase">
+                <img src="https://th.bing.com/th/id/OIP.03_Zkoj-5jpiB_Ho1lH2FgHaEO?rs=1&pid=ImgDetMain" 
+                     alt="data Structure" 
+                     class="featured-image">
+                <div class="featured-book">
+                    <h3>Featured Book</h3>
+                    <p><strong> Structure with C</strong></p>
+                    <p class="subtitle">Perfect for beginners</p>
+                </div>
+            </div>
+
+            <!-- Right Section - Book List -->
+            <div class="book-list">
+                <h2>Data Structure with C </h2>
+                <div class="books-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Book Title</th>
+                                <th>Author</th>
+                                <th>Available</th>
+                                <th>Issued</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="booksList">
+                            <!-- Books will be added here by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{% static 'js/ds.js' %}"></script>
+</body>
+</html>

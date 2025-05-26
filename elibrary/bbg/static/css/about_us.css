@@ -1,0 +1,38 @@
+
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('path/to/your/library_image.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("https://i.pinimg.com/736x/37/5f/f0/375ff0d575ada6c07b2af6682874c417.jpg");
+        }
+
+        .container {
+           /* Semi-transparent white overlay */
+            padding: 50px;
+            border-radius: 10px;
+            text-align: center;
+            color: azure;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-decoration: underline; 
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .line {
+            width: 80%; 
+            margin: 20px auto; 
+            border-top: 1px solid #ccc; 
+        }
+    

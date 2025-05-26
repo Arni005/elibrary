@@ -1,0 +1,374 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/053/482/195/small_2x/enchanting-bookstore-aisle-endless-bookshelves-in-dreamlike-lighting-photo.jpg"); */
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  height: 13%;
+  width: 100%;
+  background-color: rgb(206, 206, 193);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.h{
+  color: #f9fafb;
+}
+
+#logo {
+  height: 70%;
+}
+
+#logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texts {
+  color: rgb(227, 157, 157);
+  display: flex;
+  margin: 20px;
+}
+
+#contactDetails {
+  text-align: center;
+  color: rgb(65, 25, 228);
+  margin-left: 130px;
+  font-weight: lighter;
+}
+
+.icon {
+  color: rgb(247, 247, 247);
+  border-radius: 60%;
+  padding: 20px;
+}
+
+.icon:hover {
+  background-color: rgb(157, 221, 243);
+}
+
+#Login {
+  color: rgb(238, 238, 244);
+  display: flex;
+  border-radius: 25%;
+  padding: 10px;
+}
+
+#Login:hover {
+  background-color: rgb(157, 221, 243);
+}
+
+.try {
+  color: rgb(232, 232, 240);
+  background-color: rgb(25, 137, 14);
+  padding: 10px 20px;
+  border-radius: 20%;
+}
+
+#fakeheader {
+  height: 13%;
+  width: 100%;
+  background-color: rgb(255, 192, 232);
+}
+
+#page1 {
+  height: 87%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#strip {
+  width: 100%;
+  height: 8%;
+  background-color: rgb(238, 129, 244);
+  color: rgb(10, 11, 12);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#strip u {
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+#content {
+  width: 100%;
+  height: 76%;
+  background-color: rgb(252, 250, 253);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#box1 {
+  height: 100%;
+  width: 37%;
+  background-color: rgb(251, 249, 252);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+#box1 h1 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(16, 17, 15);
+  font-size: 70px;
+}
+
+#box1 p {
+  margin-bottom: 10px;
+  font-size: large;
+  margin-left: 35px;
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+
+#box2 {
+  height: 100%;
+  width: 63%;
+  display: flex;
+  margin-left: 245px;
+  background-color: rgb(228, 196, 255);
+}
+
+#box2 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#heading {
+  width: 100%;
+  height: 16%;
+  color: rgb(247, 126, 210);
+  background-color: rgb(21, 20, 20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: 200;
+}
+
+#heading h1 {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-left: 190px;
+  color: #e5e7eb;
+}
+
+#p {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1230%;
+  justify-content: center;
+  font-weight:bolder
+}
+
+#btns {
+  display: flex;
+  margin: 0.2px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#btns1 {
+  white-space: nowrap;
+  width: auto;
+  text-align: center;
+  width: 88%;
+  margin: 30px;
+  padding: 20px 30px;
+  color: rgb(243, 248, 248);
+  background-color: rgb(20, 19, 45);
+}
+
+#btns1:hover {
+  background-color: rgb(288, 59, 232);
+}
+
+#btns2 {
+  white-space: nowrap;
+  width: auto;
+  text-align: center;
+  margin: 30px;
+  width: 88%;
+  padding: 20px 30px;
+  color: rgb(236, 236, 237);
+  border: 1px solid rgb(15, 17, 27);
+  background-color: rgb(25, 25, 27);
+}
+
+#btns2:hover {
+  background-color: rgb(69, 43, 237);
+  color: rgb(224, 218, 218);
+  border-color: black;
+}
+
+#page2 {
+  height: 87%;
+  width: 100%;
+  background-color: rgb(244, 139, 242);
+}
+
+/* 
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #1A1B4B;
+  color: #d8dce6;
+  line-height: 1.5;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f7f8fb;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+/* Books Grid */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Book Card Styles */
+.book-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.book-content {
+  padding: 1.5rem;
+}
+
+.book-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.book-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.book-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.book-author {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.book-description {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.book-footer {
+  padding: 1rem 1.5rem;
+  background-color: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+.learn-more {
+  color: #2563eb;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.learn-more:hover {
+  color: #1d4ed8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .books-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  .subtitle {
+      font-size: 1.125rem;
+  }
+}
+
+

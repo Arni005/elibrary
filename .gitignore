@@ -1,0 +1,62 @@
+# Ignore virtual environments
+elibrary/
+a/
+#/
+venv/
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+*.swo
+.DS_Store
+
+# VSCode config
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Database
+*.sqlite3
+
+# Ignore test/coverage output
+.coverage
+htmlcov/
+
+# Node.js if you ever used frontend tools
+node_modules/
+
+# Ignore system folders
+Thumbs.db
+ehthumbs.db
+Icon?
+
+elibrary/virtual/
+myenv/
+new/
+*.pyc
+__pycache__/
+elibrary/environment/
+elibrary/a/
+elibrary/#/
+elibrary/Create/
+elibrary/bbg/migrations
+
+.DS_Store
+.hintrc
+elibrary/.DS_Store
