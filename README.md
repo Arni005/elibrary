@@ -72,4 +72,4 @@ python manage.py runserver
 ```
 ## 🖼️ Homepage Screenshot
 
-![Homepage](assets/homepage.png)
+![Homepage](assets/homepage.jpeg)
