@@ -25,7 +25,7 @@ This is a web-based **eLibrary Management System** built using **Django** (Pytho
 
 ## 📁 Project Structure
 elibrary/
-    ├── bbg/ # Main app
+<br>├── bbg/ # Main app
 <br>│ ├── static/ # CSS and JS files
 <br>│ ├── templates/ # HTML templates
 <br>│ ├── utils/ # MongoDB utility functions
@@ -50,23 +50,26 @@ Ensure your mongodb.py utility file reads from this environment variable.
 
 ##🧪 How to Run Locally
 
-Clone this repository:
+1. Clone this repository:
 ```bash
 git clone https://github.com/Arni005/elibrary.git
 cd elibrary
 ```
-Create a virtual environment & activate it:
+2. Create a virtual environment & activate it:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-Install dependencies:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Set up your .env file with MongoDB URI (as above).
+4. Set up your .env file with MongoDB URI (as above).
 
-Run the development server:
+5. Run the development server:
 ```bash
 python manage.py runserver
 ```
+## 🖼️ Homepage Screenshot
+
+![Homepage](assets/homepage.png)
