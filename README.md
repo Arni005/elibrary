@@ -48,7 +48,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/elibrary
 ```
 Ensure your mongodb.py utility file reads from this environment variable.
 
-##🧪 How to Run Locally
+## 🧪 How to Run Locally
 
 1. Clone this repository:
 ```bash
