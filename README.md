@@ -73,3 +73,8 @@ python manage.py runserver
 ## 🖼️ Homepage Screenshot
 
 ![Homepage](assets/homepage.jpeg)
+
+## Authors
+Frontend- @Kanika Gupta , @Dikshita Upadhyay (https://github.com/itsKanika , https://github.com/Dikshita-ims)
+Backend- @Arni Johry , @Gargi Pathak (https://github.com/Arni005 , https://github.com/gargi-p3)
+Database- @Himanshi (https://github.com/dynamicGurl)
